@@ -27,15 +27,15 @@
 					"file": "/home/ben/.config/i3/config",
 					"settings":
 					{
-						"buffer_size": 6627,
+						"buffer_size": 7213,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/ben/.bashrc",
+					"file": "/home/ben/.config/i3/lock.sh",
 					"settings":
 					{
-						"buffer_size": 196,
+						"buffer_size": 620,
 						"line_ending": "Unix"
 					}
 				}
@@ -47,18 +47,23 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 0.0,
+				"height": 392.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 449.0
 			},
 			"console":
 			{
-				"height": 0.0,
+				"height": 146.0,
 				"history":
 				[
+					"restart",
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					"package-manager"
 				]
 			},
 			"distraction_free":
@@ -72,6 +77,12 @@
 			},
 			"file_history":
 			[
+				"/home/ben/.bashrc",
+				"/home/ben/.gitignore",
+				"/home/ben/journal2.log",
+				"/home/ben/journal.log",
+				"/home/ben/.git/.gitignore",
+				"/home/ben/.ssh/id_rsa.pub",
 				"/home/ben/.config/i3/config",
 				"/etc/pacman.conf",
 				"/home/ben/.gtkrc-2.0",
@@ -94,6 +105,11 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"bar",
+					"lock",
+					"i3-lock",
+					"bar",
+					"base01",
 					"lock"
 				],
 				"highlight": true,
@@ -121,23 +137,23 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 6627,
+								"buffer_size": 7213,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4587,
-										4587
+										4672,
+										4672
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Makefile/Makefile.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 2342.0,
+								"translation.y": 2862.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -145,19 +161,19 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/home/ben/.bashrc",
+							"file": "/home/ben/.config/i3/lock.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 196,
+								"buffer_size": 620,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										196,
-										196
+										127,
+										127
 									]
 								],
 								"settings":
@@ -210,7 +226,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,20,636,776,1280,800",
+			"position": "0,0,0,0,0,0,37,636,798,1280,800",
 			"project": "",
 			"replace":
 			{
@@ -223,6 +239,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"co",
+						"~/.config/i3/config"
+					]
 				],
 				"width": 0.0
 			},

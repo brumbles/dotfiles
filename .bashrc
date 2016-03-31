@@ -10,3 +10,4 @@ PS1='[\u@\h \W]\$ '
 
 TERM='rxvt-unicode'
 COLORTERM='rxvt-unicode-256color'
+VISUAL='nano'
