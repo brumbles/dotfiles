@@ -156,8 +156,7 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
 exec --no-startup-id "setxkbmap -v gb"
 
 #Lock i3 keymap
-#bindsym $mod+shift+x exec i3lock -n -c 1f222d
-bindsym $mod+shift+x exec  /home/ben/.config/i3/lock.sh
+bindsym $mod+shift+x exec i3lock -n -c 1f222d
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

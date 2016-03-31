@@ -27,12 +27,15 @@
 					"file": "/home/ben/.config/i3/config",
 					"settings":
 					{
-						"buffer_size": 7213,
+						"buffer_size": 7156,
 						"line_ending": "Unix"
 					}
 				},
 				{
+					"contents": "#!/bin/bash\n\n#depends on: imagemagick, i3lock, scrot\n\nIMAGE=/tmp/lockscreen.png\nTEXT=/tmp/locktext.png\nICON=/home/ben/Pictures/Icons/Lock-icon.png\n\nscrot $IMAGE\nconvert $IMAGE -scale 10% -scale 1000% -fill black -colorize 25% $IMAGE\n[ -f $TEXT ] || { \n    convert -size 3000x60 xc:white -font Liberation-Sans -pointsize 26 -fill black -gravity center -annotate +0+0 'Type password to unlock' $TEXT;\n    convert $TEXT -alpha set -channel A -evaluate set 50% $TEXT; \n}\nconvert $IMAGE $TEXT -gravity center -geometry +0+200 -composite $IMAGE\nconvert $IMAGE $ICON -gravity center -composite -matte $IMAGE\ni3lock -u -i $IMAGE",
 					"file": "/home/ben/.config/i3/lock.sh",
+					"file_size": 620,
+					"file_write_time": 131039033282621816,
 					"settings":
 					{
 						"buffer_size": 620,
@@ -91,7 +94,7 @@
 			],
 			"find":
 			{
-				"height": 36.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -137,15 +140,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 7213,
+								"buffer_size": 7156,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4672,
-										4672
+										4635,
+										4635
 									]
 								],
 								"settings":
@@ -153,7 +156,7 @@
 									"syntax": "Packages/Makefile/Makefile.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 2862.0,
+								"translation.y": 2826.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
