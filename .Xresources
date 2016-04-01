@@ -45,3 +45,5 @@ URxvt.keysym.F11:          perl:fullscreen:switch
 URxvt.resize-font.smaller: C-Down
 URxvt.resize-font.bigger:  C-Up
 
+URxvt.transparent:	true
+URxvt.shading:	20
