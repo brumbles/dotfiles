@@ -1,0 +1,7 @@
+##Pacman
+## List Pacman Packages
+
+pacman -Qqen > pkglist.txt
+
+##Install from that list
+pacman -S - < pkglist.txt
